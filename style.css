@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+  align-content: center;
+  background-image:linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%) );
+  display:grid;
+  font-family: 'Kumbh Sans';
+  height: 100vh;
+  justify-content: center;
+  margin: 0 auto;
+  width: 85%;
+}
+
+
+h1 {
+  padding: 40px 0 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 25px;
+  display: grid;
+  grid-gap: 6rem;
+  grid-template-columns: 400px 1fr;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+
+.container-img {
+  position: relative;
+  
+}
+
+.woman-img {
+  background: url("images/illustration-woman-online-desktop.svg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 100% center;
+}
+
+.box-img {
+  position: absolute;
+  top: 43%;
+  left: -26%;
+}
+
+.arrow-icon {
+  background-image: url("images/icon-arrow-down.svg");
+  background-position: 100% center;
+  width: 100%;
+}
+
+.accordion {
+  border: none;
+  color: hsl(240, 6%, 50%);
+  font-family: 'Kumbh Sans';
+  font-size: 1rem;
+  padding: 0;
+  cursor: pointer;
+  
+}
+
+.accordion .active {
+  color:hsl(237, 12%, 33%) ;
+}
+
+.accordion:hover {
+  color: hsl(14, 88%, 65%);
+}
