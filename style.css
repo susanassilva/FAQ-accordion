@@ -7,7 +7,7 @@ body {
   height: 100vh;
   justify-content: center;
   margin: 0 auto;
-  width: 85%;
+  width: 75%;
 }
 
 
@@ -36,6 +36,7 @@ h1 {
 .woman-img {
   background: url("images/illustration-woman-online-desktop.svg");
   height: 100%;
+  margin-top: 20px;
   background-repeat: no-repeat;
   background-position: 100% center;
 }
@@ -47,9 +48,7 @@ h1 {
 }
 
 .arrow-icon {
-  background-image: url("images/icon-arrow-down.svg");
-  background-position: 100% center;
-  width: 100%;
+  padding-right: 5px;
 }
 
 .accordion {
@@ -57,15 +56,26 @@ h1 {
   color: hsl(240, 6%, 50%);
   font-family: 'Kumbh Sans';
   font-size: 1rem;
-  padding: 0;
+  padding: 15px 0;
   cursor: pointer;
-  
+  width: 100%; 
+  text-align: left;
+}
+.accordion::after{
+  content: url(images/icon-arrow-down.svg);
+}
+.accordion:hover {
+  color: hsl(14, 88%, 65%);
 }
 
 .accordion .active {
   color:hsl(237, 12%, 33%) ;
 }
 
-.accordion:hover {
-  color: hsl(14, 88%, 65%);
+.panel {
+  overflow:hidden;
+  display:none;
+  color: hsl(240, 6%, 50%);
+  padding-right:20%;
 }
+
