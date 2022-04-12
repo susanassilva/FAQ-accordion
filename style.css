@@ -6,7 +6,7 @@ body {
   display:grid;
   font-family: 'Kumbh Sans';
   justify-content: center;
-  margin: 7.3% auto;
+  margin: 7.25% 0 7.25% 15%;
   width: 75%;
 }
 
