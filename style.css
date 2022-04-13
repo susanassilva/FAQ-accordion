@@ -6,9 +6,8 @@ body {
   display:grid;
   font-family: 'Kumbh Sans';
   justify-content: center;
-  margin: 0 auto;
+  margin: 7.23% auto 7.45%;
   width: 75%;
-  height: 120vh;
   scrollbar-width: thin;
 }
 
@@ -29,27 +28,26 @@ h1 {
   display: grid;
   grid-gap: 6rem;
   grid-template-columns: 400px 1fr;
-  padding-bottom: 20px;
   position: relative;
 }
 
-
+.container-content {
+  margin-bottom: 40px;
+}
 .container-img {
   position: relative;
-  
 }
 
 .woman-img {
   background: url("images/illustration-woman-online-desktop.svg");
   background-repeat: no-repeat;
   background-position: 100% center;
-  height: 96%;
-  margin-top: 20px;
+  height: 100%;
 }
 
 .box-img {
   position: absolute;
-  top: 43%;
+  top: 42%;
   left: -26%;
 }
 
