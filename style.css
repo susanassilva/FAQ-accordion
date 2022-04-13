@@ -10,7 +10,6 @@ body {
   width: 75%;
 }
 
-
 h1 {
   padding: 40px 0 0;
   font-size: 2rem;
@@ -52,6 +51,7 @@ h1 {
 }
 
 .accordion {
+  background-color: #ffffff;
   border: none;
   color: hsl(240, 6%, 50%);
   font-family: 'Kumbh Sans';
@@ -88,7 +88,9 @@ h1 {
   text-align: center;
 }
 
-@media screen and (max-width: 720px){
+
+
+@media screen and (max-width: 1061px){
 
 
   .container {
@@ -110,7 +112,7 @@ h1 {
 
   .woman-img {
     background-position: center;
-    background-size: 66%;
+    background-size: 48%;
     height: 200px;
     position: absolute;
     top: -160px;
@@ -130,5 +132,11 @@ h1 {
     padding-left: 25px;
     padding-right: 20px;
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 921px){
+  .woman-img {
+    background-size: 62%;
   }
 }
