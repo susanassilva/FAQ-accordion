@@ -23,12 +23,15 @@ h1 {
 }
 
 .container {
-  background-color: #ffffff;
   border-radius: 25px;
   display: grid;
   grid-gap: 6rem;
   grid-template-columns: 400px 1fr;
   position: relative;
+  background: #ffffff url("images/bg-pattern-desktop.svg") -500% 68% no-repeat;
+  background-size: 90%;
+  
+  
 }
 
 .container-content {
@@ -60,6 +63,7 @@ h1 {
   border: none;
   color: hsl(240, 6%, 50%);
   font-family: 'Kumbh Sans';
+  font-weight: 400;
   font-size: 1rem;
   padding: 15px 0;
   cursor: pointer;
@@ -69,6 +73,7 @@ h1 {
 
 .active {
   color:#000000;
+  font-weight: 700;
 }
 
 .active img{
@@ -97,7 +102,6 @@ h1 {
 
 @media screen and (max-width: 1061px){
 
-
   .container {
     grid-gap: 0.5rem;
     grid-template-columns: 1fr;
@@ -105,28 +109,28 @@ h1 {
     position: relative;
     text-align: center;
     width: 80%;
+    background-position: center top -105%;
+    background-size: 65%;
     
   }
 
   .box-img {
-    left: -90px;
-    position: relative;
-    top: -65px;
-    width: 25%;
+    display: none;
   }
 
   .woman-img {
+    background: url("images/illustration-woman-online-mobile.svg") no-repeat;
     background-position: center;
-    background-size: 48%;
     height: 200px;
     position: absolute;
     top: -160px;
     width: 100%;
+    padding-top: 60px;
   }
 
   h1 {
-    margin-top:0;
-    padding: 0;
+    margin-top:60px;
+    padding-top: 40px;
   }
 
   .accordion {
